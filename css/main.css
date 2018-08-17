@@ -2,7 +2,7 @@
 body{
   font-family: "Source Sans Pro", sans-serif;
 }
-#about, #work, #contact{
+#about, #contact{
   height: 600px;
   }
 
@@ -17,7 +17,11 @@ body{
 }
 .third-width{
   width: 400px;
-  float: left;
+}
+@media (min-width: 1000px) {
+  .third-width{ 
+    float: left;
+  }
 }
 
 /***** HEADER *****/
